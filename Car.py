@@ -1,4 +1,4 @@
-class Brand:
+"""class Brand:
     def __init__(self, name, year):
         self.name = name
         self.year = year
@@ -6,11 +6,11 @@ class Brand:
 
 class Car:
     def __init__(self, brand: Brand, color):
-        """
+
 
         :param brand: is type Brand
         :param color:
-        """
+
         self.brand = brand
         self.color = color
 
@@ -59,3 +59,4 @@ print(c3)
 c4.color = "pink"
 print(c3.color)
 print(c4.color)
+"""
